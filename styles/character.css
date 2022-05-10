@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@media (min-width: 1024px) and (max-width: 1199px) {
+  video {
+    margin: 5% 0 0 0;
+    width: 80%;
+    height: auto;
+  }
+
+  .container .pic {
+    height: auto;
+  }
+
+  .Scorpion {
+    margin: 10% 0 0 0;
+  }
+
+  .h {
+    font-size: 24px;
+  }
+
+  .history {
+    font-size: 12px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .pic {
+    min-width: 400px;
+    height: auto;
+  }
+  .container .info {
+    height: auto;
+    width: 100%;
+  }
+  .container .name {
+    max-height: 125px;
+  }
+  .container .pic {
+    height: auto;
+    width: 50%;
+  }
+  .container video {
+    width: 70%;
+    height: auto;
+  }
+  .container .history {
+    font-size: 14px;
+  }
+
+  .centry {
+    font-size: 10px;
+  }
+}
+@media (min-width: 480px) and (max-width: 600px) {
+  .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .pic {
+    min-width: 300px;
+    height: auto;
+  }
+  .container .info {
+    height: auto;
+    width: 100%;
+  }
+  .container .name {
+    max-height: 125px;
+  }
+  .container video {
+    width: 80%;
+    height: auto;
+  }
+  .container .h {
+    font-size: 20px;
+  }
+  .container .history {
+    font-size: 12px;
+  }
+
+  .centry {
+    font-size: 8px;
+  }
+}
+@media (min-width: 360px) and (max-width: 480px) {
+  .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .pic {
+    min-width: 250px;
+    height: auto;
+  }
+  .container .info {
+    height: auto;
+    width: 100%;
+  }
+  .container .name {
+    max-height: 125px;
+  }
+  .container video {
+    width: 85%;
+    height: auto;
+  }
+  .container .h {
+    font-size: 16px;
+  }
+  .container .history {
+    font-size: 10px;
+  }
+
+  .centry {
+    font-size: 8px;
+  }
+}
+html, body {
+  height: 100%;
+}
+
+.bg {
+  background-image: url(preserve-730-jaccobm-1601683.gif);
+  background-size: 110%;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3% auto 0;
+  height: auto;
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.Scorpion {
+  width: 100%;
+  max-height: auto;
+}
+
+.pic {
+  overflow: hidden;
+  width: 40%;
+  max-height: 850px;
+}
+
+.info {
+  width: 60%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bginfo {
+  background-color: rgba(86, 75, 75, 0.13);
+  width: 90%;
+  margin: 5% auto;
+  padding: 15px;
+}
+
+.name {
+  width: 100%;
+}
+
+.h {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 26px;
+  color: red;
+  text-align: center;
+  width: 30%;
+  float: left;
+}
+
+.history {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  width: 70%;
+  margin-left: 30%;
+}
+
+.littleline img {
+  max-width: 100%;
+}
+
+video {
+  width: 70%;
+}
+
+.video {
+  width: auto;
+  margin: auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.straight {
+  margin-bottom: 3%;
+  width: 100%;
+}
+
+.straight img {
+  max-width: 100%;
+}

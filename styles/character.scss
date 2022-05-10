@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+@media(min-width: 1024px) and (max-width: 1199px){
+    video{
+        margin: 5% 0 0 0;
+   width: 80%;
+   height: auto;
+    }
+    .container .pic{
+        height: auto;
+    }
+    .Scorpion{
+        margin: 10% 0 0 0;
+    }
+    .h{
+        font-size: 24px;
+    }
+    .history{
+        font-size: 12px;
+    }
+    
+}
+@media(min-width: 600px) and (max-width: 1024px){
+.container{
+    flex-wrap: wrap;
+    justify-content: center;
+    .pic{
+        min-width: 400px;
+        height: auto;
+    }
+    .info{
+        height: auto;
+        width: 100%;
+    }
+    .name{
+        max-height: 125px;
+    }
+    .pic{
+        height: auto;
+        width: 50%;
+    }
+    video{
+        width: 70%;
+        height: auto;
+    }
+    .history{
+        font-size: 14px;
+    }
+}
+.centry{
+    font-size: 10px;
+}
+}
+@media(min-width: 480px) and (max-width: 600px){
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+        .pic{
+            min-width: 300px;
+            height: auto;
+        }
+        .info{
+            height: auto;
+            width: 100%;
+        }
+        .name{
+            max-height: 125px;
+        }
+        video{
+            width: 80%;
+            height: auto;
+        }
+        .h{
+            font-size: 20px;
+        }
+        .history{
+            font-size: 12px;
+        }
+    }
+    .centry{
+        font-size: 8px;
+    }
+}
+@media(min-width: 360px) and (max-width: 480px){
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+        .pic{
+            min-width: 250px;
+            height: auto;
+        }
+        .info{
+            height: auto;
+            width: 100%;
+        }
+        .name{
+            max-height: 125px;
+        }
+        video{
+            width: 85%;
+            height: auto;
+        }
+        .h{
+            font-size: 16px;
+        }
+        .history{
+            font-size: 10px;
+        }
+    }
+    .centry{
+        font-size: 8px;
+    }
+}
+html,body{
+    height: 100%;
+}
+.bg{
+    background-image: url(preserve-730-jaccobm-1601683.gif);
+    background-size: 110%;
+   
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    margin: 3% auto 0;
+    height: auto;
+    width: 100%;
+    flex: 1;
+}
+.Scorpion{
+   width: 100%;
+   max-height:auto;
+}
+.pic{
+    overflow: hidden;
+    width: 40%;
+    max-height: 850px;
+}
+.info{
+width: 60%;
+height: 100%;
+justify-content: center;
+}
+.bginfo{
+    background-color: rgba(86, 75, 75, 0.13);
+    width: 90%;
+    margin: 5% auto;
+    padding: 15px;
+}
+.name{
+    width: 100%;
+}
+.h{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+    color: red;
+   text-align: center;
+    width: 30%;
+    float: left;
+}
+.history{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    width: 70%;
+    margin-left: 30%;
+}
+.littleline img{
+    max-width: 100%;
+}
+video{
+    width: 70%;
+}
+.video{
+   width: auto;
+   margin:auto 0;
+   display: flex;
+   justify-content: space-around;
+}
+.straight{
+margin-bottom: 3%;
+width: 100%;
+}
+.straight img{
+   max-width: 100%;
+}
+
