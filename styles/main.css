@@ -317,12 +317,12 @@ p {
     display: none;
   }
 
-  #bottonEffect:hover {
+  .bottonEffect:hover {
     padding: 0;
     background-color: #cfa12a;
     height: auto;
   }
-  #bottonEffect:hover .prov {
+  .bottonEffect:hover .prov {
     color: black;
   }
 
